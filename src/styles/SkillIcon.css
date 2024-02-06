@@ -1,0 +1,11 @@
+.skill-icon {
+  display: flex;
+  font-size: 50px;
+  align-items: center;
+  margin: 0 15px;
+  flex-direction: column;
+}
+
+.skill-icon span {
+  font-size: 12px;
+}
