@@ -5,7 +5,7 @@ import "../styles/Logo.css";
 const Logo = () => {
   return (
     <div className="logo">
-      <span>Andrew Cookson</span>
+      <span>andrewcookson@email.com</span>
     </div>
   );
 };

@@ -13,17 +13,19 @@ const Header = () => {
             <li>
               <Link className="nav-link" to="/">
                 About
-              </Link>
+              </Link>{" "}
+              /
             </li>
             <li>
               <Link className="nav-link" to="/projects">
                 Projects
-              </Link>
+              </Link>{" "}
+              /
             </li>
             <li>
               <Link className="nav-link" to="/contact">
                 Contact
-              </Link>
+              </Link>{" "}
             </li>
           </ul>
         </nav>
