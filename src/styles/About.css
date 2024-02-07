@@ -59,6 +59,7 @@
   margin-bottom: 40px;
   &:hover {
     background-color: #242424;
+    color: #d1d1d1;
   }
 }
 
