@@ -23,4 +23,15 @@
 .nav-link {
   text-decoration: none;
   margin: 0 15px;
+  &:hover {
+    color: #d1d1d1;
+  }
+}
+
+.email a {
+  text-decoration: none;
+  padding: 0 13px;
+  &:hover {
+    color: #d1d1d1;
+  }
 }

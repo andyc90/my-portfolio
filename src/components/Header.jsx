@@ -1,29 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../components/Logo";
 import "../styles/Header.css";
 
 const Header = () => {
   return (
     <div className="header-container-wrapper">
       <header className="header-container">
-        <Logo />
+        <div className="email">
+          <a href="/">andrewcookson@email.com</a>
+        </div>
         <nav>
           <ul className="nav-list">
             <li>
               <Link className="nav-link" to="/">
                 About
-              </Link>
+              </Link>{" "}
+              /
             </li>
             <li>
               <Link className="nav-link" to="/projects">
                 Projects
-              </Link>
+              </Link>{" "}
+              /
             </li>
             <li>
               <Link className="nav-link" to="/contact">
                 Contact
-              </Link>
+              </Link>{" "}
             </li>
           </ul>
         </nav>
