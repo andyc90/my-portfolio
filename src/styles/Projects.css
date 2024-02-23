@@ -1,5 +1,24 @@
 .projects-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: calc(100vh - 102.67px);
+}
+
+.projects-container h1 {
+  text-align: center;
+  font-size: 47px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  background: linear-gradient(to right, #dbdbdb, #515151);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  max-width: 1480px;
+  margin: 0 auto;
 }
